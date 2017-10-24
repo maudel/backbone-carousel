@@ -1,0 +1,26 @@
+{
+  "name": "carousel-backbone",
+  "version": "1.0.0",
+  "description": "a demo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tostasqb/carousel-backbone.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "moment": "^2.18.1",
+    "socket.io": "^2.0.2",
+    "uuid": "^3.0.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tostasqb/carousel-backbone/issues"
+  },
+  "homepage": "https://github.com/tostasqb/carousel-backbone#readme"
+}
