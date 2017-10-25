@@ -61,4 +61,3 @@ var NavView = Backbone.View.extend({
     }
 
 });
-var navView = new NavView();

@@ -26,19 +26,14 @@ var SlideCollection = Backbone.Collection.extend({
 });
 
 
-
-
-
-
-// A little helper to randomize the image
 var util = {
   randomImage: function(images){
     return images[Math.floor(Math.random()*images.length)];
   }
 }
-// define main view
+
 var SlideView = Backbone.View.extend({
-  el:  '.slider',
+  el:  '.container',
 
   template: _.template( $('#slide-template').html() ),
 
